@@ -56,7 +56,12 @@ export default function Home() {
             </RevealOnScroll>
             <RevealOnScroll className="delay-400">
               <div className="flex flex-wrap items-center gap-8 mt-12">
-                <a href="https://www.kbstar.com" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.kbstar.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition duration-300 grayscale hover:grayscale-0"
+                >
                   <Image
                     src="/client-logo/kb-bank.svg"
                     alt="KB국민은행"
@@ -64,7 +69,12 @@ export default function Home() {
                     height={60}
                   />
                 </a>
-                <a href="https://mmaa.or.kr" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://mmaa.or.kr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition duration-300 grayscale hover:grayscale-0"
+                >
                   <Image
                     src="/client-logo/mmaa.svg"
                     alt="군인공제회"
@@ -72,7 +82,12 @@ export default function Home() {
                     height={60}
                   />
                 </a>
-                <a href="https://mnd.go.kr" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://mnd.go.kr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition duration-300 grayscale hover:grayscale-0"
+                >
                   <Image
                     src="/client-logo/rok-mnd.png"
                     alt="국방부"
@@ -80,7 +95,12 @@ export default function Home() {
                     height={60}
                   />
                 </a>
-                <a href="http://iconix.co.kr" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="http://iconix.co.kr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition duration-300 grayscale hover:grayscale-0"
+                >
                   <Image
                     src="/client-logo/iconix.png"
                     alt="아이코닉스"
