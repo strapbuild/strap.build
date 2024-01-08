@@ -7,30 +7,29 @@ export default function Home() {
       <main className="flex flex-col items-center justify-between max-sm:px-6 max-sm:pt-12 p-24 pb-32 break-words break-keep bg-white">
         <div className="max-w-5xl w-full items-start flex flex-col">
           <section>
-          <RevealOnScroll>
-            <Image
-              src="/logo-crop.svg"
-              alt="Strapbuild"
-              width={250}
-              height={66}
-              priority
-            />
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <p className="mt-12 text-6xl font-bold leading-tight text-[#051E4C]">
-              창의성이 탁월한 <br />
-              기술력을 만나는 곳
-            </p>
+            <RevealOnScroll>
+              <Image
+                src="/logo-crop.svg"
+                alt="Strapbuild"
+                width={250}
+                height={66}
+                priority
+              />
+            </RevealOnScroll>
+            <RevealOnScroll>
+              <p className="mt-12 text-6xl font-bold leading-tight text-[#051E4C]">
+                창의성이 탁월한 <br />
+                기술력을 만나는 곳
+              </p>
             </RevealOnScroll>
             <RevealOnScroll className="delay-300">
               <p className="mt-24 max-w-3xl text-xl leading-normal">
-                2023년에 설립된 스트랩빌드는 여러 고객에게 매끄러운 솔루션을
-                제공하는 디지털 프로덕션 에이전시로 빠르게 자리잡았습니다.
-                스트랩빌드의 전문가 팀은 아이디어를 뛰어난 디지털 경험으로
-                전환하는 데 열정을 쏟고 있습니다. 스트랩빌드의 전문가 팀은
-                아이디어를 뛰어난 디지털 경험으로 전환하는 데 열정을 쏟고
-                있습니다. 스트랩빌드의 전문가 팀은 아이디어를 뛰어난 디지털
-                경험으로 전환하는 데 열정을 쏟고 있습니다.
+                2023년 설립된 스트랩빌드는 여러 고객에게 매끄러운 솔루션을
+                제공하는 디지털 프로덕션 에이전시로 빠르게 자리를 잡았습니다.{' '}
+                <br />
+                스트랩빌드의 전문가 팀은 ‘세계의 모든 이가 진정으로 더 중요한
+                문제에 집중할 수 있도록 돕는다’는 미션 하에, 아이디어를 뛰어난
+                디지털 경험으로 전환하는 데 열정을 쏟고 있습니다.
               </p>
             </RevealOnScroll>
             <RevealOnScroll className="delay-300">
