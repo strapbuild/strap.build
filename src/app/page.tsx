@@ -33,6 +33,17 @@ export default function Home() {
               </p>
             </RevealOnScroll>
             <RevealOnScroll className="delay-300">
+              <p
+                lang="en"
+                className="mt-6 max-w-3xl text-lg leading-normal text-gray-500"
+              >
+                Strapbuild Inc. is a Seoul-based software studio that designs
+                and builds mobile and web products for its clients. Founded in
+                2023, our team turns ideas into reliable digital experiences so
+                that people everywhere can focus on what truly matters.
+              </p>
+            </RevealOnScroll>
+            <RevealOnScroll className="delay-300">
               <a
                 href="/files/스트랩빌드_회사소개서.pdf"
                 download="스트랩빌드_회사소개서.pdf"
@@ -119,7 +130,9 @@ export default function Home() {
             </RevealOnScroll>
             <RevealOnScroll>
               <div className="mt-8 text-xl leading-loose">
-                <h2 className="mt-4 font-bold text-[#051E4C]">본사 주소</h2>
+                <h2 className="mt-4 font-bold text-[#051E4C]">
+                  본사 주소 / Address
+                </h2>
                 <div className="flex">
                   <a
                     href="maps://?q=서울 마포구 양화로 81, 415호 (서교동, H스퀘어)"
@@ -127,6 +140,10 @@ export default function Home() {
                   >
                     (04034) 서울 마포구 양화로 81, 415호 (서교동, H스퀘어)
                   </a>
+                </div>
+                <div lang="en" className="text-base text-gray-500">
+                  Room 415, 81 Yanghwa-ro, Mapo-gu, Seoul, 04034, Republic of
+                  Korea
                 </div>
                 <h2 className="mt-4 font-bold text-[#051E4C]">대표 전화번호</h2>
                 <div className="flex">
@@ -173,6 +190,28 @@ export default function Home() {
                 </span> 070-8190-5741 <br />
                 <span className="font-medium">이메일: </span>{' '}
                 contact@strap.build <br />
+              </div>
+              <div
+                lang="en"
+                className="mt-6 pt-4 border-spacing-2 border-[#506282] border-t leading-relaxed text-base"
+              >
+                <div className="font-semibold">Strapbuild Inc.</div>
+                <div className="mt-2">
+                  <span className="font-medium">CEO</span> Hojun Lee (Jimmy
+                  Lee) <br />
+                  <span className="font-medium">
+                    Business Registration No.
+                  </span>{' '}
+                  736-87-03067
+                </div>
+                <div className="mt-2">
+                  <span className="font-medium">Address: </span>Room 415, 81
+                  Yanghwa-ro, Mapo-gu, Seoul, 04034, Republic of Korea <br />
+                  <span className="font-medium">Tel: </span>+82-70-8190-5741{' '}
+                  <br />
+                  <span className="font-medium">Email: </span>{' '}
+                  contact@strap.build
+                </div>
               </div>
             </div>
           </div>
