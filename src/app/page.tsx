@@ -145,12 +145,6 @@ export default function Home() {
                   Room 415, 81 Yanghwa-ro, Mapo-gu, Seoul, 04034, Republic of
                   Korea
                 </div>
-                <h2 className="mt-4 font-bold text-[#051E4C]">대표 전화번호</h2>
-                <div className="flex">
-                  <a href="tel:+82-70-8190-5741" className="hover:underline">
-                    070-8190-5741
-                  </a>
-                </div>
                 <h2 className="mt-4 font-bold text-[#051E4C]">이메일 문의</h2>
                 <div className="flex">
                   <a
@@ -185,9 +179,6 @@ export default function Home() {
               <div className="mt-4 pt-1 border-spacing-2 border-[#506282] border-t leading-relaxed">
                 <span className="font-medium">본사: </span>(04034) 서울 마포구
                 양화로 81, 415호 (서교동, H스퀘어) <br />
-                <span className="font-medium">
-                  대표전화:{' '}
-                </span> 070-8190-5741 <br />
                 <span className="font-medium">이메일: </span>{' '}
                 contact@strap.build <br />
               </div>
@@ -207,8 +198,6 @@ export default function Home() {
                 <div className="mt-2">
                   <span className="font-medium">Address: </span>Room 415, 81
                   Yanghwa-ro, Mapo-gu, Seoul, 04034, Republic of Korea <br />
-                  <span className="font-medium">Tel: </span>+82-70-8190-5741{' '}
-                  <br />
                   <span className="font-medium">Email: </span>{' '}
                   contact@strap.build
                 </div>
